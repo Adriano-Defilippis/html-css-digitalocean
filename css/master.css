@@ -4,10 +4,20 @@
   padding: 0;
 }
 
+h1, h2, h3, h4{
+  margin-bottom: 3%;
+  font-weight: bold;
+}
+
+body{
+  line-height: 1.5;
+}
+
 .container{
   min-width: 90%;
   max-width: 95%;
   padding: 0;
+  margin: 0 auto;
 }
 .container-small{
   max-width: 900px;
@@ -88,6 +98,55 @@ header .row{
 }
 
 
+/* Section 5 */
+#section_5 table{
+  color: grey;
+  margin: 2% 0;
+  margin-right: 4%;
+}
+
+#section_5 [class*="col-md-"]{
+  max-width: calc(50% - (4%));
+}
+
+#section_5{
+  margin: 0 auto;
+  background-color: #031B4E;
+  color: white;
+  padding: 5% 0;
+  }
+
+#section_5 table span{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  }
+
+#section_5 table tr{
+  border-bottom: 1px solid grey;
+}
+
+/* Section 7 */
+#section_7{
+  background-image: url("bg-home-1-d54581d7.jpg");
+  padding: 5% 0;
+  color: white;
+}
+
+#section_7 a{
+  background-color: white;
+  color: #0147FE;
+  font-weight: bold;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+
+#section_7 a:hover{
+  background-color: lightgrey;
+  text-decoration: none;
+}
+
+
 /* Footer */
 footer{
   background-color: #010E28;
@@ -103,6 +162,11 @@ footer .social-footer li{
 footer a{
    color: gray;
  }
+
+ footer a:hover{
+    color: white;
+    text-decoration: none;
+  }
 
  footer .collegamenti ul span{
    color: white;
