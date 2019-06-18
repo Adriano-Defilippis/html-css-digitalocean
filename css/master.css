@@ -86,3 +86,26 @@ header .row{
  max-width: 80%;
  height: auto;
 }
+
+
+/* Footer */
+footer{
+  background-color: #010E28;
+  color: gray;
+  padding-top: 5%;
+}
+
+footer .social-footer li{
+  float: left;
+  padding-right: 2%;
+}
+
+footer a{
+   color: gray;
+ }
+
+ footer .collegamenti ul span{
+   color: white;
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
