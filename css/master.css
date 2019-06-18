@@ -9,6 +9,15 @@
   max-width: 95%;
   padding: 0;
 }
+.container-small{
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+li{
+  list-style: none;
+}
 
 /* Svrascrittura regole Bootstrap */
 
@@ -31,11 +40,49 @@ header .row{
 #section_0{
   /* font-size: 62px; */
   background-image: url("bg-home-1-d54581d7.jpg");
-  padding: 10% 0;
+  padding: 10%;
+  color: white;
+}
+
+#section_0 [class*="col-"]{
+
 }
 
 #section_0 form{
   margin: 0 auto;
   background-color: white;
   min-width: 80%;
+  color: black;
+}
+
+/* Section 1 */
+#section_1{
+  background: #F3F5F9;
+}
+
+/* #section_1 .row{
+  padding-top: 5px;
+  padding-bottom: 5px;
+} */
+
+#section_1 .logo-list li {
+  float: left;
+
+
+}
+
+#section_1 .logo-list img {
+  max-width: 60%;
+  height: auto;
+}
+
+
+
+
+
+/* Section_3 */
+#section_3 img,
+#section_6 img{
+ max-width: 80%;
+ height: auto;
 }
