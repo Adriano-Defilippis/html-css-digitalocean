@@ -1,5 +1,29 @@
 /* Regole generali */
+*{
+  margin: 0;
+  padding: 0;
+}
 
-.container-fluid{
-  padding:10px 20px;
+.container{
+  min-width: 90%;
+  max-width: 95%;
+  padding: 0;
+}
+
+/* Svrascrittura regole Bootstrap */
+
+header .nav-sup .btn-nav{
+  padding: 0 5px;
+  font-size: 1rem;
+}
+
+header .nav-sup {
+  margin-right: -40px;
+}
+
+
+
+/* Regole Specifiche per Header */
+header .row{
+ 
 }
