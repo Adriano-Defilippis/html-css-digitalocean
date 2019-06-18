@@ -25,5 +25,17 @@ header .nav-sup {
 
 /* Regole Specifiche per Header */
 header .row{
- 
+
+}
+/* Section 0 */
+#section_0{
+  /* font-size: 62px; */
+  background-image: url("bg-home-1-d54581d7.jpg");
+  padding: 10% 0;
+}
+
+#section_0 form{
+  margin: 0 auto;
+  background-color: white;
+  min-width: 80%;
 }
