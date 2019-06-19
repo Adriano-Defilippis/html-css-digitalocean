@@ -14,7 +14,7 @@ body{
 }
 
 .container{
-  min-width: 90%;
+  min-width: 80%;
   max-width: 95%;
   padding: 0;
   margin: 0 auto;
@@ -54,9 +54,7 @@ header .row{
   color: white;
 }
 
-#section_0 [class*="col-"]{
 
-}
 
 #section_0 form{
   margin: 0 auto;
@@ -87,6 +85,11 @@ header .row{
 }
 
 
+/* Section 2 */
+
+#section_2 li{
+  padding: 2%;
+}
 
 
 
@@ -102,15 +105,19 @@ header .row{
 #section_5 table{
   color: grey;
   margin: 2% 0;
-  margin-right: 4%;
+  padding: 2%;
+
+}
+#section_5 [class*="col-md-"]{
+
 }
 
-#section_5 [class*="col-md-"]{
-  max-width: calc(50% - (4%));
-}
+
+
+
 
 #section_5{
-  margin: 0 auto;
+
   background-color: #031B4E;
   color: white;
   padding: 5% 0;
@@ -125,6 +132,8 @@ header .row{
 #section_5 table tr{
   border-bottom: 1px solid grey;
 }
+
+
 
 /* Section 7 */
 #section_7{
@@ -172,4 +181,9 @@ footer a{
    color: white;
    font-weight: bold;
    margin-bottom: 20px;
+ }
+
+ /* Classi ausiliarie */
+ .mr-r{
+   margin-right: 5%;
  }
