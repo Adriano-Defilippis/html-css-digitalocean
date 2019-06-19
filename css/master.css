@@ -133,6 +133,12 @@ header .row{
   border-bottom: 1px solid grey;
 }
 
+/* Section 6 */
+#section_6,
+#section_3{
+  background-color: #F3F5F9;
+}
+
 
 
 /* Section 7 */
