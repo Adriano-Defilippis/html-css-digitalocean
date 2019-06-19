@@ -7,7 +7,7 @@
 }
 
 h1, h2, h3, h4{
-  margin-bottom: 20px;
+  margin-bottom: 5%;
   font-weight: bold;
   color: #031B4E;
 }
@@ -40,14 +40,13 @@ body img{
 
 
 #section_0,
-#section_1,
 #section_2,
 #section_3,
 #section_4,
 #section_5,
 #section_6,
 #section_7{
-  padding: 2% 0;
+  padding: 5% 0;
 }
 
 
@@ -65,10 +64,6 @@ li{
 
 /* Svrascrittura regole Bootstrap */
 
-header .nav-sup .btn-nav{
-  /* padding: 0 5px; */
-}
-
 header .nav-sup {
   margin-right: -40px;
 }
@@ -82,6 +77,16 @@ header .container-nav{
   max-width: 95%;
   margin: 0 auto;
 
+}
+
+header .nav_1 a{
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+header .nav_1 ul li{
+  float: left;
+  padding: 0 5%;
 }
 
 header #hamburgher{
@@ -201,6 +206,7 @@ div.form *{
 #section_5 table{
   color: grey;
   width: 100%;
+  /* margin-bottom: 60px; */
 
 }
 
@@ -224,8 +230,12 @@ div.form *{
 
 #section_5 table tr{
   border-bottom: 1px solid grey;
+  font-weight: lighter;
 }
 
+#section_5 table tr a{
+  font-weight: normal;
+}
 /* Section 6 */
 #section_6{
   color: white;
