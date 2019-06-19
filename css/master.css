@@ -28,6 +28,7 @@ body{
 }
 .container-small{
   max-width: 900px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -115,6 +116,7 @@ header #hamburgher{
 
 
 .form{
+  min-width: 100%;
   background-color: white;
   color: black;
   padding: 15px 30px;
@@ -308,6 +310,8 @@ footer a{
   #section_0 h1{
    font-size: 2em;
   }
+
+
 
   footer > div{
     margin-bottom: 50px;
