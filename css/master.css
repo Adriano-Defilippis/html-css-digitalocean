@@ -59,8 +59,30 @@ header .row{
 #section_0 form{
   margin: 0 auto;
   background-color: white;
-  min-width: 80%;
   color: black;
+}
+
+.form{
+  background-color: white;
+  color: black;
+  padding: 10%;
+  border-radius: 5px;
+}
+
+#section_0 form a{
+  display: block;
+  text-align: center;
+  padding: 2% 0;
+  border-radius: 10px;
+}
+
+.google-btn{
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.green-btn{
+  width: 100%;
+  background: #0CB863;
 }
 
 /* Section 1 */
