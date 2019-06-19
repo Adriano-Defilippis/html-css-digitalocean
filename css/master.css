@@ -104,8 +104,7 @@ header .row{
 /* Section 5 */
 #section_5 table{
   color: grey;
-  margin: 2% 0;
-  padding: 2%;
+  width: 100%;
 
 }
 #section_5 [class*="col-md-"]{
