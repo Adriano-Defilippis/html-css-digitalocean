@@ -89,10 +89,32 @@ header .nav_1 ul li{
   padding: 0 5%;
 }
 
+header .nav_1 ul{
+  min-width: 80%;
+}
+
 header #hamburgher{
   background: none;
   border: none;
   padding: 10px;
+}
+
+.header_2 a{
+  font-size: 14px;
+  font-weight: bold;
+  color: #004AFF;
+}
+
+.header_2 button{
+  font-size: 14px;
+  font-weight: bold;
+  color: #004AFF;
+  background: none;
+  border: 1px solid #004AFF;
+}
+
+.header_2 img{
+  
 }
 /* Section 0 */
 #section_0{
