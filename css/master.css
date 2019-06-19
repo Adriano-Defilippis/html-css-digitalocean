@@ -7,17 +7,22 @@
 }
 
 h1, h2, h3, h4{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   font-weight: bold;
   color: #031B4E;
 }
 
 p{
   color: #5B6987;
+  margin-bottom: 60px;
 }
 
 body{
   line-height: 1.5;
+}
+
+body img{
+
 }
 
 .container{
@@ -45,9 +50,7 @@ body{
   padding: 2% 0;
 }
 
-[id*="section_"] *{
-  margin-bottom: 25px;
-}
+
 
 
 li{
@@ -186,14 +189,11 @@ div.form *{
 
 
 /* Section_3 */
-#section_6{
-  margin: -25px 0;
-}
-
 #section_3 img,
 #section_6 img{
  max-width: 80%;
  height: auto;
+ margin: 2% 0;
 }
 
 
@@ -202,6 +202,11 @@ div.form *{
   color: grey;
   width: 100%;
 
+}
+
+#section_5 h2{
+  color: white;
+  line-height: 2;
 }
 
 #section_5{
@@ -222,6 +227,11 @@ div.form *{
 }
 
 /* Section 6 */
+#section_6{
+  color: white;
+  /* margin: -25px 0; */
+}
+
 #section_6,
 #section_3{
   background-color: #F3F5F9;
@@ -233,6 +243,9 @@ div.form *{
 #section_7{
   background-image: url("bg-home-1-d54581d7.jpg");
   padding: 5% 0;
+}
+
+#section_7 h2{
   color: white;
 }
 
@@ -305,6 +318,10 @@ footer a{
 
   header {
     background: none;
+  }
+
+  [class*="col-"], span{
+    margin-bottom: 4%;
   }
 
   #section_0 h1{
