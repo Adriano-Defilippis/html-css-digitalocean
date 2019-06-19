@@ -2,12 +2,19 @@
 *{
   margin: 0;
   padding: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
   /* font-size: 26px; */
 }
 
 h1, h2, h3, h4{
   margin-bottom: 30px;
   font-weight: bold;
+  color: #031B4E;
+}
+
+p{
+  color: #5B6987;
 }
 
 body{
@@ -34,7 +41,6 @@ li{
 
 header .nav-sup .btn-nav{
   padding: 0 5px;
-  font-size: 1rem;
 }
 
 header .nav-sup {
@@ -44,8 +50,8 @@ header .nav-sup {
 
 
 /* Regole Specifiche per Header */
-header .row{
-
+header{
+  font-size: 16px;
 }
 /* Section 0 */
 #section_0{
@@ -53,6 +59,8 @@ header .row{
   background-image: url("bg-home-1-d54581d7.jpg");
   padding: 10%;
   color: white;
+  font-weight: lighter;
+  font-size: 1.2em;
 
 }
 
@@ -103,10 +111,9 @@ div.form *{
 }
 
 .home h1{
-  font-size: 4em;
+  font-size: 56px;
 }
 
-/* Testo Responsive section 0 */
 
 /* Section 1 */
 #section_1{
@@ -241,3 +248,17 @@ footer a{
  .title-box{
    margin-bottom: 20px;
  }
+
+
+/* MEDIA QUERY */
+
+/* Testo Responsive */
+@media only screen and (max-width: 969px) {
+  body {
+    font-size: 18px;
+  }
+  #section_0 h1{
+   font-size: 2em;
+  }
+
+}
